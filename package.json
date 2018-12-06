@@ -1,6 +1,8 @@
 {
-  "name": "threejs-junk",
-  "version": "1.0.0",
+  "name": "threejs-starter",
+  "description": "ThreeJS starter setup with babel and webpack",
+  "author": "Aaron Arney",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -10,8 +12,7 @@
   },
   "dependencies": {
     "three": "^0.91.0",
-    "three-obj-loader": "^1.1.3",
-    "three-orbit-controls": "^82.1.0"
+    "three-obj-loader": "^1.1.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
