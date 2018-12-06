@@ -1,5 +1,4 @@
 import { WebGLRenderer, PerspectiveCamera, Scene } from 'three';
-import { OrbitControls } from 'three-orbit-controls';
 import { ObjLoader } from 'three-obj-loader';
 
 
@@ -10,8 +9,8 @@ const renderer = new WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.set(0, 20, 100);
 
-function loop() {
-    requestAnimationFrame(animate);
+const loop = function loop() {
+    requestAnimationFrame(loop);
     renderer.render(scene, camera);
 } loop();
 
